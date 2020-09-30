@@ -1,0 +1,109 @@
+#container{
+    width: 100%;
+    background-color: black;
+}
+
+/*TOPO*/
+header{
+    background-color: #ffb200;
+    height: 80px;
+    padding: 10px;
+    box-sizing: border-box;
+
+    /*FLEX*/
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header h1{
+    font-size: 30px;
+    font-weight: bold;
+}
+
+header a{
+    text-decoration: none;
+    color:#ffb200;
+    font-size: 20px;
+    margin-left: 10px;
+    background-color: black;
+    padding: 5px;
+    border-radius: 5px;
+}
+
+header a:hover{
+    text-decoration: underline;
+}
+
+/*CONTEUDO*/
+main{
+    background-color: black;
+    width: 80%;
+    margin: 0 auto;
+}
+
+main .titulo{
+    width: 100%;
+    height: 60px;
+    background-color: #ffb200;
+    margin: 15px;
+    font-size: 30px;
+    text-transform: uppercase;
+    text-align: center;
+    padding: 15px 0;
+    box-sizing: border-box;
+    font-weight: bolder;
+}
+
+.box-filmes{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+
+}
+
+.filmes{
+    margin: 15px;
+    border: 5px solid #ffb200;
+    width: 300px;
+    text-align: center;
+    color: #ffb200;
+    padding-bottom: 15px;
+}
+.filmes h2{
+    font-size: 20px;
+    height: 60px;
+    width: 280px;
+    text-align: center;
+    margin-top: 5px;
+    text-transform: uppercase;
+}
+.filmes img{
+    width: 250px;
+}
+
+/**RODAPE**/
+footer{
+    height: 35px;
+    background-color: #ffb200;
+    padding: 15px;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+footer nav a img{
+    width: 30px;
+    background-color: black;
+    padding: 3px;
+    border-radius: 5px;
+    margin-left: 10px;
+}
+
+footer h2{
+    font-size: 20px;
+    font-weight: bold;
+
+}
